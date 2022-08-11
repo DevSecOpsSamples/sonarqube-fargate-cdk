@@ -17,15 +17,15 @@ buildscript {
 sonarqube {
     properties {
         property "sonar.projectName", "sonarqube-fargate-cdk"
-        property "sonar.projectKey", "engel80_sonarqube-fargate-cdk"
-        property "sonar.organization", "engel80"
+        property "sonar.projectKey", "ContainerOnAWS_sonarqube-fargate-cdk"
+        property "sonar.organization", "containeronaws"
         property "sonar.host.url", "https://sonarcloud.io"
         // property "sonar.host.url", "http://127.0.0.1:9000"
         property "sonar.sourceEncoding", "UTF-8"
         property "sonar.sources", "."
         property "sonar.exclusions", "**/node_modules/**, **/cdk.out/**"
         // property "sonar.cpd.exclusions", "**/*index.ts"
-        property "sonar.links.ci", "https://github.com/engel80/sonarqube-fargate-cdk"
+        property "sonar.links.ci", "https://github.com/ContainerOnAWS/sonarqube-fargate-cdk"
         property "sonar.issue.ignore.multicriteria", "e1"
         property "sonar.issue.ignore.multicriteria.e1.ruleKey", "typescript:S1848"
         property "sonar.issue.ignore.multicriteria.e1.resourceKey", "**/*.ts"
