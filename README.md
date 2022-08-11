@@ -1,6 +1,6 @@
 # Sonarqube on Fargate with CDK
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=engel80_sonarqube-fargate-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=engel80_sonarqube-fargate-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=engel80_sonarqube-fargate-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=engel80_sonarqube-fargate-cdk)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ContainerOnAWS_sonarqube-fargate-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ContainerOnAWS_sonarqube-fargate-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ContainerOnAWS_sonarqube-fargate-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=ContainerOnAWS_sonarqube-fargate-cdk)
 ## Introduction
 
 During App Modernization journey, a code visualization system is required for code quality management because many changes are needed.
@@ -193,7 +193,7 @@ Run SonarQube Scanner using gradle wrapper:
 
 ![SonarQube](./screenshots/sample-result.png?raw=true)
 
-If you want to integrate with Jenkins using Webhooks, refer to the https://github.com/engel80/sonarqube-jenkins repository.
+If you want to integrate with Jenkins using Webhooks, refer to the https://github.com/ContainerOnAWS/sonarqube-jenkins repository.
 
 ## Clean Up
 
