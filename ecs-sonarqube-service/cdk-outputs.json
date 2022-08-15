@@ -1,0 +1,8 @@
+{
+  "ecs-sonarqube-fargate-dev": {
+    "TaskDefinition": "sonarqube-task",
+    "LogGroup": "sonarqube",
+    "ALB": "alb-sonarqube-1446814268.ap-northeast-2.elb.amazonaws.com",
+    "Service": "arn:aws:ecs:ap-northeast-2:681747700094:service/sonarqube-fargate-dev/sonarqube"
+  }
+}
