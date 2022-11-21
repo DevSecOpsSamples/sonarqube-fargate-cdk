@@ -252,12 +252,12 @@ If you want to integrate with Jenkins using Webhooks, refer to the https://githu
 * [DockerHub - SonarQube](https://hub.docker.com/_/sonarqube)
 * [GitHub - SonarQube](https://github.com/SonarSource/sonarqube)
 
-### CDK Lib
+### CDK Libries
 
-* [ECS](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs-readme.html)
-* [ECR Assets](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecr_assets-readme.html)
-* [IAM](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_iam-readme.html)
-* [SSM](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ssm-readme.html)
+* [aws-cdk-lib.aws_ecs module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs-readme.html)
+* [aws-cdk-lib.aws_ecr_assets module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecr_assets-readme.html)
+* [aws-cdk-lib.aws_iam module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_iam-readme.html)
+* [aws-cdk-lib.aws_ssm module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ssm-readme.html)
 
 ### IAM Role & Policy
 
