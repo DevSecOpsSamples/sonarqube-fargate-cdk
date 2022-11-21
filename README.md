@@ -245,24 +245,19 @@ If you want to integrate with Jenkins using Webhooks, refer to the https://githu
         └── vpc-stack.ts
 ```
 
-## Reference
+## References
 
 * [DockerHub - SonarQube](https://hub.docker.com/_/sonarqube)
-
 * [GitHub - SonarQube](https://github.com/SonarSource/sonarqube)
 
 ### CDK Lib
 
 * [ECS](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs-readme.html)
-
 * [ECR Assets](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecr_assets-readme.html)
-
 * [IAM](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_iam-readme.html)
-
 * [SSM](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ssm-readme.html)
 
 ### IAM Role & Policy
 
 * [Task Role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html)
-
 * [Exec Role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-exec.html)
