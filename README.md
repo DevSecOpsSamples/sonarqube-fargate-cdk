@@ -164,7 +164,7 @@ SSM parameters:
 * /sonarqube-fargate-cdk/task-execution-role-arn
 * /sonarqube-fargate-cdk/default-task-role-arn
 
-[ecs-sonarqube-service/lib/ecs-sonarqube-service-stack.ts](./ecs-sonarqube-service/lib/ecs-sonarqube-service-stack.ts)
+[ecs-sonarqube-service/lib/sonarqube-fargate-stack.ts](./ecs-sonarqube-service/lib/sonarqube-fargate-stack.ts)
 
 **IMPORTANT**
 
