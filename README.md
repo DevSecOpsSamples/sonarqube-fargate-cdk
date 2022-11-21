@@ -22,7 +22,7 @@ This project provides a solution including IaC code and configurations to run So
 2. Running SonarQube with minimum cost using Fargate Spot and Aurora Serverless.
 3. Help developers keep high-quality code using SonarQube
 
-I hope you build and learn about code inspection/visualization systems using SonarQube in *1 day* only.
+I hope you build and learn about code inspection/visualization systems using SonarQube in **1 day** only.
 
 ## Table of Contents
 
