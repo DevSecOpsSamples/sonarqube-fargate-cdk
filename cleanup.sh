@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 echo "[1/5] destroy ecs-sonarqube-service"
 cd ecs-sonarqube-service
 cdk destroy

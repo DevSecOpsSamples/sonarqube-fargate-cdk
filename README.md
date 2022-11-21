@@ -1,7 +1,8 @@
 # Sonarqube on Fargate with CDK
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ContainerOnAWS_sonarqube-fargate-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ContainerOnAWS_sonarqube-fargate-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ContainerOnAWS_sonarqube-fargate-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=ContainerOnAWS_sonarqube-fargate-cdk)
-## Introduction
+
+## Overview
 
 During App Modernization journey, a code visualization system is required for code quality management because many changes are needed.
 [SonarQube](https://www.sonarqube.org/), the most famous and used solution, is an open-source platform developed by SonarSource for continuous inspection of code quality.
@@ -195,16 +196,16 @@ Run SonarQube Scanner using gradle wrapper:
 
 If you want to integrate with Jenkins using Webhooks, refer to the https://github.com/ContainerOnAWS/sonarqube-jenkins repository.
 
-## Clean Up
+## Cleanup
 
-[clean-up.sh](./clean-up.sh)
+[cleanup.sh](./cleanup.sh)
 
 ## Structure
 
 ```text
 ├── build.gradle
 ├── deploy-all.sh
-├── clean-up.sh
+├── cleanup.sh
 ├── config.ts
 ├── package.json
 ├── tsconfig.json

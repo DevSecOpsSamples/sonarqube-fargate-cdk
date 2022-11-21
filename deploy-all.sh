@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 find . -name "cdk.context.json" -exec rm -f {} \;
 
 echo "[1/5] Deploy vpc"
