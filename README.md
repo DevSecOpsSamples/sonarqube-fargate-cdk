@@ -196,6 +196,8 @@ Run SonarQube Scanner using gradle wrapper:
 
 If you want to integrate with Jenkins using Webhooks, refer to the https://github.com/DevSecOpsSamples/sonarqube-jenkins repository.
 
+---
+
 ## Cleanup
 
 [cleanup.sh](./cleanup.sh)
