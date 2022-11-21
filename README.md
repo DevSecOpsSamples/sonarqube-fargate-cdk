@@ -1,7 +1,8 @@
 # Sonarqube on Fargate with CDK
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ContainerOnAWS_sonarqube-fargate-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ContainerOnAWS_sonarqube-fargate-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ContainerOnAWS_sonarqube-fargate-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=ContainerOnAWS_sonarqube-fargate-cdk)
-## Introduction
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DevSecOpsSamples_sonarqube-fargate-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DevSecOpsSamples_sonarqube-fargate-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=DevSecOpsSamples_sonarqube-fargate-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=DevSecOpsSamples_sonarqube-fargate-cdk)
+
+## Overview
 
 During App Modernization journey, a code visualization system is required for code quality management because many changes are needed.
 [SonarQube](https://www.sonarqube.org/), the most famous and used solution, is an open-source platform developed by SonarSource for continuous inspection of code quality.
@@ -21,7 +22,7 @@ This project provides a solution including IaC code and configurations to run So
 2. Running SonarQube with minimum cost using Fargate Spot and Aurora Serverless.
 3. Help developers keep high-quality code using SonarQube
 
-I hope you build and learn about code inspection/visualization systems using SonarQube in *1 day* only.
+I hope you build and learn about code inspection/visualization systems using SonarQube in **1 day** only.
 
 ## Table of Contents
 
@@ -163,7 +164,7 @@ SSM parameters:
 * /sonarqube-fargate-cdk/task-execution-role-arn
 * /sonarqube-fargate-cdk/default-task-role-arn
 
-[ecs-sonarqube-service/lib/ecs-sonarqube-service-stack.ts](./ecs-sonarqube-service/lib/ecs-sonarqube-service-stack.ts)
+[ecs-sonarqube-service/lib/sonarqube-fargate-stack.ts](./ecs-sonarqube-service/lib/sonarqube-fargate-stack.ts)
 
 **IMPORTANT**
 
@@ -193,18 +194,20 @@ Run SonarQube Scanner using gradle wrapper:
 
 ![SonarQube](./screenshots/sample-result.png?raw=true)
 
-If you want to integrate with Jenkins using Webhooks, refer to the https://github.com/ContainerOnAWS/sonarqube-jenkins repository.
+If you want to integrate with Jenkins using Webhooks, refer to the https://github.com/DevSecOpsSamples/sonarqube-jenkins repository.
 
-## Clean Up
+---
 
-[clean-up.sh](./clean-up.sh)
+## Cleanup
+
+[cleanup.sh](./cleanup.sh)
 
 ## Structure
 
 ```text
 ├── build.gradle
 ├── deploy-all.sh
-├── clean-up.sh
+├── cleanup.sh
 ├── config.ts
 ├── package.json
 ├── tsconfig.json
@@ -244,24 +247,19 @@ If you want to integrate with Jenkins using Webhooks, refer to the https://githu
         └── vpc-stack.ts
 ```
 
-## Reference
+## References
 
 * [DockerHub - SonarQube](https://hub.docker.com/_/sonarqube)
-
 * [GitHub - SonarQube](https://github.com/SonarSource/sonarqube)
 
-### CDK Lib
+### CDK Libries
 
-* [ECS](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs-readme.html)
-
-* [ECR Assets](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecr_assets-readme.html)
-
-* [IAM](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_iam-readme.html)
-
-* [SSM](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ssm-readme.html)
+* [aws-cdk-lib.aws_ecs module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs-readme.html)
+* [aws-cdk-lib.aws_ecr_assets module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecr_assets-readme.html)
+* [aws-cdk-lib.aws_iam module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_iam-readme.html)
+* [aws-cdk-lib.aws_ssm module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ssm-readme.html)
 
 ### IAM Role & Policy
 
 * [Task Role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html)
-
 * [Exec Role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-exec.html)
