@@ -1,5 +1,6 @@
 # Sonarqube on Fargate with CDK
 
+[![Build](https://github.com/DevSecOpsSamples/sonarqube-fargate-cdk/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/DevSecOpsSamples/sonarqube-fargate-cdk/actions/workflows/build.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DevSecOpsSamples_sonarqube-fargate-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DevSecOpsSamples_sonarqube-fargate-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=DevSecOpsSamples_sonarqube-fargate-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=DevSecOpsSamples_sonarqube-fargate-cdk)
 
 ## Overview
